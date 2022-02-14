@@ -4,8 +4,18 @@
 
 ### Creating a Date Picker
 
-- ``init(_:selection:mode:minimumDate:maximumDate:showsMonthBeforeDay:twentyFourHour:onCompletion:)``
+- ``init(_:selection:displayedComponents:)``
 
-### Setting Date Picker Mode
+### Setting Date Picker Components
 
-- ``Mode``
+- ``Components``
+
+### Styling Date Pickers
+
+- ``DatePicker/datePickerShowsMonthBeforeDay(_:)``
+- ``DatePicker/datePickerTwentyFourHour(_:)``
+- ``DatePicker/datePickerTwentyFourHourIndicator(_:)``
+- ``DatePicker/datePickerConfirmationTitleKey(_:)``
+- ``DatePicker/datePickerConfirmationColor(_:)``
+- ``DatePicker/datePickerAMPMHighlightColor(_:)``
+- ``DatePicker/datePickerFocusColor(_:)``
