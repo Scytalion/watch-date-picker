@@ -5,6 +5,7 @@ let package = Package(
   name: "watch-date-picker",
   defaultLocalization: "en",
   platforms: [
+    .iOS(.v15),
     .watchOS(.v8)
   ],
   products: [

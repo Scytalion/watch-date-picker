@@ -1,5 +1,6 @@
 import SwiftUI
 
+#if os(watchOS)
 /// A control for the inputting of date values.
 ///
 /// The `DatePickerView` displays three pickers for month, day, and year, the order of which depends on locale. It optionally shows a button which presents a time picker. The view binds to a `Date` instance.
@@ -222,3 +223,4 @@ public struct DatePickerView: View {
   }
 }
   
+#endif

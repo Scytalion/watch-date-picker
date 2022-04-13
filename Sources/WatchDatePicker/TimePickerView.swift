@@ -1,5 +1,6 @@
 import SwiftUI
 
+#if os(watchOS)
 // TODO: selection indicator with default size is cut off by status bar when in 12 o’clock position
 
 /// A control for the inputting of time values.
@@ -332,3 +333,4 @@ struct TimePickerView_Previews: PreviewProvider {
     .accentColor(.orange)
   }
 }
+#endif

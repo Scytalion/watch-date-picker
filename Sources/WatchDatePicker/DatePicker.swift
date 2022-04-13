@@ -1,5 +1,6 @@
 import SwiftUI
 
+#if os(watchOS)
 // TODO: move most of the configuration options to environment values
 
 /// A control for the inputting of date and time values.
@@ -176,3 +177,4 @@ struct DatePicker_Previews: PreviewProvider {
     .previewDisplayName("Mode: Date & Time (Step 2)")
   }
 }
+#endif
